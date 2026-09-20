@@ -18,6 +18,16 @@ import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../styles/theme';
 import { searchEntries, getCategories, getStats } from '../services/database';
 
+// directions can be an array or a JSON/comma-joined string depending on the source
+const parseDirections = (d) => {
+  if (Array.isArray(d)) return d;
+  if (typeof d === 'string') {
+    try { const arr = JSON.parse(d); if (Array.isArray(arr)) return arr; } catch {}
+    return d.split(',').map(s => s.trim()).filter(Boolean);
+  }
+  return [];
+};
+
 const VastuEntriesScreen = ({ navigation }) => {
   const { colors, spacing, borderRadius, shadows } = useTheme();
   const [searchQuery, setSearchQuery] = useState('');
@@ -124,7 +134,7 @@ const VastuEntriesScreen = ({ navigation }) => {
       
       {item.directions && (
         <View style={styles.directionsRow}>
-          {JSON.parse(item.directions).slice(0, 3).map((dir, idx) => (
+          {parseDirections(item.directions).slice(0, 3).map((dir, idx) => (
             <View key={idx} style={[styles.directionBadge, { backgroundColor: colors.accent + '15' }]}>
               <Text style={[styles.directionText, { color: colors.accent }]}>{dir}</Text>
             </View>
