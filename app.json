@@ -1,28 +1,30 @@
 {
   "expo": {
-    "name": "VastuCompass",
+    "name": "Vastu Compass",
     "slug": "VastuCompass",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "plugins": [
-      [
-        "expo-location",
-        {
-          "locationWhenInUsePermission": "Vastu Compass uses your location only to read the device compass heading so it can show which Vastu direction you are facing. Your location is never stored or shared."
-        }
-      ]
-    ],
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF8F5"
+    },
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
+      "bundleIdentifier": "com.programeryashu.vastucompass",
+      "buildNumber": "1",
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "Vastu Compass uses your location only to read the device compass heading so it can show which Vastu direction you are facing. Your location is never stored or shared."
       }
     },
     "android": {
+      "package": "com.programeryashu.vastucompass",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FAF8F5",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
@@ -32,8 +34,26 @@
         "ACCESS_FINE_LOCATION"
       ]
     },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Vastu Compass uses your location only to read the device compass heading so it can show which Vastu direction you are facing. Your location is never stored or shared."
+        }
+      ]
+    ],
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "name": "Vastu Compass",
+      "shortName": "Vastu",
+      "backgroundColor": "#FAF8F5",
+      "themeColor": "#5D4E37",
+      "output": "single"
+    },
+    "_ explanatory": {
+      "web.output": "single = SPA with client routing; 'static' would pre-render each route and needs the expo-router file convention",
+      "bundleIdentifier / package": "Change these to your own reverse-domain ID before store submission",
+      "newArchEnabled": "React Native New Architecture — default for SDK 57"
     }
   }
 }

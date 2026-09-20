@@ -231,7 +231,10 @@ const CompassScreen = ({ navigation }) => {
 
   const openAppSettings = () => { Linking.openSettings(); };
 
+  // Dev-only simulated compass. Never runs in production builds —
+  // production devices without a heading sensor show "No Sensor" instead.
   const startDev = () => {
+    if (!__DEV__) { setSensorMode('unsupported'); return; }
     let h = 45;
     devRef.current = setInterval(() => {
       h = (h + (Math.random() - 0.3) * 3 + 360) % 360;
@@ -253,7 +256,9 @@ const CompassScreen = ({ navigation }) => {
     real: { bg: '#E8F5EC', fg: '#4A7C59', label: 'Active' },
     permission_denied: { bg: '#FDECEC', fg: '#B54A4A', label: 'No Access' },
     services_off: { bg: '#FFF3E0', fg: '#C9893E', label: 'GPS Off' },
-    dev_simulation: { bg: '#FFF0E6', fg: '#FF6B35', label: '🛠️ Sim' },
+    dev_simulation: __DEV__
+      ? { bg: '#FFF0E6', fg: '#FF6B35', label: '🛠️ Sim' }
+      : { bg: '#FDECEC', fg: '#B54A4A', label: 'No Sensor' },
     unsupported: { bg: '#FDECEC', fg: '#B54A4A', label: 'No Sensor' },
   };
   const pill = PILL[sensorMode] ?? PILL.unsupported;

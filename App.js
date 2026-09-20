@@ -6,6 +6,7 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Ionicons } from '@expo/vector-icons';
 import { Platform } from 'react-native';
+import ErrorBoundary from './src/components/ErrorBoundary';
 
 // Screens
 import HomeScreen from './src/screens/HomeScreen';
@@ -168,11 +169,13 @@ function MainTabs() {
 // ── App ──
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <NavigationContainer>
-        <MainTabs />
-        <StatusBar style="dark" barStyle="dark-content" />
-      </NavigationContainer>
-    </SafeAreaProvider>
+    <ErrorBoundary>
+      <SafeAreaProvider>
+        <NavigationContainer>
+          <MainTabs />
+          <StatusBar style="dark" barStyle="dark-content" />
+        </NavigationContainer>
+      </SafeAreaProvider>
+    </ErrorBoundary>
   );
 }

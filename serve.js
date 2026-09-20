@@ -3,6 +3,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const zlib = require('zlib');
 
 const requestedPort = Number(process.env.PORT);
 const PORT = Number.isFinite(requestedPort) && requestedPort > 0 ? requestedPort : 3010;
@@ -27,8 +28,13 @@ const MIME = {
   '.webmanifest': 'application/manifest+json',
 };
 
+// Hashed bundle assets are immutable; entry HTML is always revalidated.
+const CACHEABLE = /\.(js|css|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|webp)$/i;
+const IMMUTABLE = /[_-][0-9a-f]{8,}\.(js|css|png|jpg|jpeg|gif|svg|woff2?)$/i;
+
 const server = http.createServer((req, res) => {
   try {
+    const acceptsGzip = String(req.headers['accept-encoding'] || '').includes('gzip');
     let urlPath = decodeURIComponent(new URL(req.url, 'http://localhost').pathname);
     if (urlPath.endsWith('/')) urlPath += 'index.html';
     let filePath = path.normalize(path.join(ROOT, urlPath));
@@ -41,11 +47,27 @@ const server = http.createServer((req, res) => {
       filePath = path.join(ROOT, 'index.html');
     }
     const ext = path.extname(filePath).toLowerCase();
-    res.writeHead(200, {
+    const isHtml = ext === '.html';
+    const immutable = !isHtml && IMMUTABLE.test(filePath);
+
+    const headers = {
       'Content-Type': MIME[ext] || 'application/octet-stream',
-      'Cache-Control': 'no-cache',
-    });
-    fs.createReadStream(filePath).pipe(res);
+      'Cache-Control': isHtml
+        ? 'no-cache'
+        : immutable
+          ? 'public, max-age=31536000, immutable'
+          : 'public, max-age=3600',
+      'X-Content-Type-Options': 'nosniff',
+      'Referrer-Policy': 'no-referrer',
+    };
+    if (acceptsGzip && MIME[ext] && /^(text|application|font)/.test(MIME[ext].split(';')[0])) {
+      headers['Content-Encoding'] = 'gzip';
+      res.writeHead(200, headers);
+      fs.createReadStream(filePath).pipe(zlib.createGzip()).pipe(res);
+    } else {
+      res.writeHead(200, headers);
+      fs.createReadStream(filePath).pipe(res);
+    }
   } catch (err) {
     res.writeHead(500);
     res.end('Server error');
