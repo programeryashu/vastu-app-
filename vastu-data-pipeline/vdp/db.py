@@ -79,6 +79,13 @@ CREATE TABLE IF NOT EXISTS facts (
   reviewed_at        TEXT,
   chunk_id           TEXT DEFAULT '',
   ocr_confidence     REAL,
+  source_app_category TEXT DEFAULT '',
+  source_app_issue_topic TEXT DEFAULT '',
+  source_app_recommendation TEXT DEFAULT '',
+  source_app_mantra  TEXT DEFAULT '',
+  source_app_expected_effect TEXT DEFAULT '',
+  source_app_confidence TEXT DEFAULT '',
+  source_app_verified TEXT DEFAULT '',
   created_at         TEXT,
   updated_at         TEXT
 );
@@ -125,6 +132,13 @@ def connect(db: Path | None = None):
 
 def init_db(conn: sqlite3.Connection) -> None:
     conn.executescript(SCHEMA)
+    # lightweight migration: add round-trip columns to databases created earlier
+    existing = {r["name"] for r in conn.execute("PRAGMA table_info(facts)")}
+    for col in ("source_app_category", "source_app_issue_topic", "source_app_recommendation",
+                "source_app_mantra", "source_app_expected_effect", "source_app_confidence",
+                "source_app_verified"):
+        if col not in existing:
+            conn.execute(f"ALTER TABLE facts ADD COLUMN {col} TEXT DEFAULT ''")
 
 
 def upsert_source(conn: sqlite3.Connection, rec) -> None:
@@ -215,14 +229,21 @@ def insert_fact(conn: sqlite3.Connection, fact) -> str:
                            element, planet, remedy, conditions, chapter, page,
                            original_text, language, confidence, verification_status,
                            canonical_record_id, duplicate_of, similarity_score,          conflict_group, variant_group, review_notes, reviewed_by,
-          reviewed_at, chunk_id, ocr_confidence, created_at, updated_at)
+          reviewed_at, chunk_id, ocr_confidence,
+          source_app_category, source_app_issue_topic, source_app_recommendation,
+          source_app_mantra, source_app_expected_effect, source_app_confidence,
+          source_app_verified, created_at, updated_at)
         VALUES (:id, :source_id, :record_type, :interpretation_note, :topic,
                 :subcategory, :category, :claim, :description, :direction, :room,
                 :element, :planet, :remedy, :conditions, :chapter, :page,
                 :original_text, :language, :confidence, :verification_status,
                 :canonical_record_id, :duplicate_of, :similarity_score,
                 :conflict_group, :variant_group, :review_notes, :reviewed_by,
-                :reviewed_at, :chunk_id, :ocr_confidence, :created_at, :updated_at)
+                           :reviewed_at, :chunk_id, :ocr_confidence,
+                           :source_app_category, :source_app_issue_topic,
+                           :source_app_recommendation, :source_app_mantra,
+                           :source_app_expected_effect, :source_app_confidence,
+                           :source_app_verified, :created_at, :updated_at)
         ON CONFLICT(id) DO UPDATE SET
           topic=excluded.topic, subcategory=excluded.subcategory, category=excluded.category,
           claim=excluded.claim, description=excluded.description, direction=excluded.direction,
@@ -240,6 +261,13 @@ def insert_fact(conn: sqlite3.Connection, fact) -> str:
           reviewed_by=facts.reviewed_by,
           reviewed_at=facts.reviewed_at,
           verification_status=facts.verification_status,
+          source_app_category=excluded.source_app_category,
+          source_app_issue_topic=excluded.source_app_issue_topic,
+          source_app_recommendation=excluded.source_app_recommendation,
+          source_app_mantra=excluded.source_app_mantra,
+          source_app_expected_effect=excluded.source_app_expected_effect,
+          source_app_confidence=excluded.source_app_confidence,
+          source_app_verified=excluded.source_app_verified,
           updated_at=excluded.updated_at
         """,
         params,

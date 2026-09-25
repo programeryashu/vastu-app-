@@ -209,6 +209,20 @@ OCR trigger (`min_chars_per_page`), OCR confidence flag
 (`low_confidence_threshold`), dedupe similarity (`similarity_threshold`),
 review app port, export filenames.
 
+## App dataset round-trip
+
+The app's dataset (`../src/data/vastuEntries.json`) is **generated** from the
+pipeline — one source of truth:
+
+```bash
+.venv/Scripts/python scripts/build_app_dataset.py          # regenerate app dataset
+.venv/Scripts/python scripts/build_app_dataset.py --check  # CI: exit 1 if stale
+```
+
+Edit facts in the review app or DB, then rebuild the app dataset. The importer
+(`import_vastu_entries.py`) preserves the original app-entry fields
+(`source_app_*` columns) so the round trip is lossless.
+
 ## Troubleshooting
 
 | Symptom | Fix |

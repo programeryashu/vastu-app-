@@ -112,11 +112,6 @@ def convert(entry: dict) -> StagedFact:
     mantra = (entry.get("mantra_spiritual_practice") or "").strip()
     recommendation = (entry.get("recommendation") or "").strip()
 
-    desc_parts = [p for p in (description, recommendation) if p]
-    if mantra:
-        desc_parts.append(f"Mantra / spiritual practice (from source): {mantra}")
-    full_desc = " | ".join(desc_parts)
-
     hay = " ".join(filter(None, [
         entry.get("subcategory", ""), entry.get("issue_topic", ""),
         description, remedy, mantra, source_text,
@@ -135,15 +130,15 @@ def convert(entry: dict) -> StagedFact:
         id=fid,
         record_type="source_fact",
         topic=category,
-        subcategory=category,
+        subcategory=(entry.get("subcategory") or "").strip() or category,
         category=category,
         claim=source_text,           # verbatim Hindi — what the source actually says
-        description=full_desc,       # English summary/recommendation from the app data
+        description=description,     # English description from the app data, verbatim
         direction=directions,
         room=detect_room(hay),
         element=detect_element(hay),
         planet=detect_planet(hay),
-        remedy=remedy or mantra,
+        remedy=remedy,
         conditions=[],
         source=SourceRef(
             source_id=SOURCE_ID,
@@ -160,6 +155,15 @@ def convert(entry: dict) -> StagedFact:
             f"imported from VastuCompass app data "
             f"(app flag: {entry.get('verification_status', 'n/a')})"
         ),
+        # round-trip: keep the original app-entry fields so build_app_dataset.py
+        # can regenerate the app dataset from the pipeline without information loss
+        source_app_category=entry.get("category", ""),
+        source_app_issue_topic=entry.get("issue_topic", ""),
+        source_app_recommendation=recommendation,
+        source_app_mantra=mantra,
+        source_app_expected_effect=entry.get("expected_effect", "") or "",
+        source_app_confidence=str(entry.get("confidence", "")),
+        source_app_verified=str(entry.get("verification_status", "")),
     )
 
 
@@ -182,7 +186,7 @@ def main() -> None:
     # 1) register the source (owned license — user's own book data)
     rec = SourceRecord(
         source_id=SOURCE_ID,
-        title="Vastu Chintamani (app dataset extract)",
+        title="Vastu Chintamani",
         author="",
         language="hi",
         source_type="other",

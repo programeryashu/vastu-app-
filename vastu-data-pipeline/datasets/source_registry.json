@@ -57,16 +57,16 @@
   },
   {
     "source_id": "VASTU-CHINTAMANI-001",
-    "title": "Vastu Chintamani (app dataset extract)",
+    "title": "Vastu Chintamani",
     "author": "",
     "language": "hi",
     "publication_year": null,
     "source_type": "other",
-    "location": "VastuCompass\\src\\data\\vastuEntries.json",
+    "location": "src\\data\\vastuEntries.json",
     "license_status": "owned",
     "notes": "53 entries extracted from the user's own copy; imported via import_vastu_entries.py",
     "extraction_status": "pending",
     "created_at": "2026-09-24T13:02:15+00:00",
-    "updated_at": "2026-09-24T13:02:15+00:00"
+    "updated_at": "2026-09-25T17:09:57+00:00"
   }
 ]

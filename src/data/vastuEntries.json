@@ -23,9 +23,18 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"North\",\"South\",\"North-East\",\"South-West\",\"North-West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "North",
+        "South",
+        "North-East",
+        "South-West",
+        "North-West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::4dc998a3be::e001",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 2,
@@ -44,9 +53,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::293f624eae::e002",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 3,
@@ -65,9 +75,17 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"North\",\"South\",\"North-East\",\"South-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "North",
+        "South",
+        "North-East",
+        "South-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::dbb5d32f99::e003",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 4,
@@ -86,9 +104,15 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"North\",\"South\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::14840bdad7::e004",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 5,
@@ -107,9 +131,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"North\",\"North-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "North",
+        "North-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::c7c67d1620::e005",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 6,
@@ -128,9 +157,16 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"West\",\"North\",\"South\",\"South-West\",\"North-West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "West",
+        "North",
+        "South",
+        "South-West",
+        "North-West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::57c844bd9a::e006",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 7,
@@ -149,9 +185,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"South\",\"South-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "South",
+        "South-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::0221ed672b::e007",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 8,
@@ -170,9 +211,16 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"West\",\"North\",\"South\",\"South-West\",\"North-West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "West",
+        "North",
+        "South",
+        "South-West",
+        "North-West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b27bff546e::e008",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 9,
@@ -191,9 +239,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"Brahmasthan\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::4274336a9d::e009",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 10,
@@ -212,9 +261,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"Brahmasthan\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::654e59973c::e010",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 11,
@@ -233,9 +283,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::227622830b::e011",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 12,
@@ -254,9 +305,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::728dc5edef::e012",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 13,
@@ -275,9 +327,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::d0504735e1::e013",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 14,
@@ -296,9 +349,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::8e12e034f3::e014",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 15,
@@ -317,9 +371,15 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"North\",\"South\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::c833231171::e015",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 16,
@@ -338,9 +398,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::97f70c4666::e016",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 17,
@@ -359,9 +420,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::800bc809d4::e017",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 18,
@@ -380,9 +442,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::a5ed2d3dbb::e018",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 19,
@@ -401,9 +464,12 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::427f51bd7f::e019",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 20,
@@ -411,7 +477,7 @@
       "subcategory": "Ashta Dishayen (8 Directions)",
       "issue_topic": "Agneya (South-East) — significance",
       "description": "South-east is described as the health-giving (स्वास्थ्य प्रदाता) direction.",
-      "recommendation": null,
+      "recommendation": "",
       "remedy": null,
       "mantra_spiritual_practice": null,
       "expected_effect": "Governs the health of residents.",
@@ -422,9 +488,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"South\",\"South-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "South",
+        "South-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::9cf944a389::e020",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 21,
@@ -443,9 +514,12 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"South\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "South"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::61d936cfdb::e021",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 22,
@@ -464,9 +538,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"West\",\"South\",\"South-West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "West",
+        "South",
+        "South-West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::76a22c167c::e022",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 23,
@@ -474,7 +553,7 @@
       "subcategory": "Ashta Dishayen (8 Directions)",
       "issue_topic": "Paschim (West) — significance",
       "description": "West is the giver of progress, advancement and reputation/prestige.",
-      "recommendation": null,
+      "recommendation": "",
       "remedy": null,
       "mantra_spiritual_practice": null,
       "expected_effect": "Gives प्रगति (progress), उत्कर्ष (advancement), प्रतिष्ठा (reputation/prestige).",
@@ -485,9 +564,12 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::bd8c91ffee::e023",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 24,
@@ -495,7 +577,7 @@
       "subcategory": "Ashta Dishayen (8 Directions)",
       "issue_topic": "Vayavya (North-West) — significance",
       "description": "North-west regulates relationships with other people (सम्बन्धों का नियमन), governing cordiality and hospitality.",
-      "recommendation": null,
+      "recommendation": "",
       "remedy": null,
       "mantra_spiritual_practice": null,
       "expected_effect": "Governs cordiality (हार्दिकता) and hospitality (आतिथ्य) in relationships with others.",
@@ -506,9 +588,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"West\",\"North\",\"North-West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "West",
+        "North",
+        "North-West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::27d2830be0::e024",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 25,
@@ -527,9 +614,12 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"North\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "North"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::0e65fec835::e025",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 26,
@@ -548,9 +638,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"North\",\"North-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "North",
+        "North-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::65426f861c::e026",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 27,
@@ -569,9 +664,15 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"North\",\"South\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "North",
+        "South"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::23ada7fcef::e027",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 28,
@@ -590,9 +691,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"South\",\"South-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "South",
+        "South-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b3ddba751f::e028",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 29,
@@ -611,9 +717,12 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::6360f6289e::e029",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 30,
@@ -632,9 +741,14 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"North\",\"North-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "North",
+        "North-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::eaad4cd436::e030",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 31,
@@ -653,9 +767,16 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"South\",\"South-East\",\"South-West\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "South",
+        "South-East",
+        "South-West"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::26406c68aa::e031",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 32,
@@ -674,9 +795,17 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"West\",\"North\",\"South\",\"North-East\",\"South-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "West",
+        "North",
+        "South",
+        "North-East",
+        "South-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::6aea25c68e::e032",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 33,
@@ -688,16 +817,21 @@
       "remedy": "Correct these specific Ishan-corner faults (strengthen the wall, relocate the toilet/kitchen away from Ishan, lower the height of the Ishan portion, restore any cut corner) to relieve the associated difficulties.",
       "mantra_spiritual_practice": null,
       "expected_effect": "Correcting these Ishan-corner faults is said to bring relief (मुक्ति) from the associated troubles.",
-      "chapter": "Khand X (वास्तु विस्तार / क्रय-विक्रय)",
-      "section": "तैयार वास्तु का क्रय विचार",
+      "chapter": "Khand X (वास्तु विस्तार",
+      "section": "क्रय-विक्रय) / तैयार वास्तु का क्रय विचार",
       "page_number": null,
       "source_text": "मसलन वास्तु की ईशान दिशा की दीवाल कमजोर हो गई हो अथवा ईशान दिशा में शौचालय या रसोईघर हो। ईशान दिशा में सबसे ऊंचा भाग हो या ईशान दिशा का भाग कटा हो तो वास्तु बिकने के प्रसंग आ जाते हैं। यदि उपरोक्त वास्तु दोषों को सुधार लिया जाए तो परेशानियों से मुक्ति मिल जाती है।",
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"East\",\"North\",\"North-East\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [
+        "East",
+        "North",
+        "North-East"
+      ],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::7b7d1a403d::e033",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 34,
@@ -716,9 +850,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::5bb344f36b::e034",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 35,
@@ -737,9 +872,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::bcb5829fd7::e035",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 36,
@@ -758,9 +894,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::09d986a14e::e036",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 37,
@@ -779,9 +916,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::2947eb594b::e037",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 38,
@@ -800,9 +938,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"Brahmasthan\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::82f0bf5394::e038",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 39,
@@ -821,9 +960,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[\"Brahmasthan\"]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::723184688b::e039",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 40,
@@ -842,9 +982,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::2ed6e8ccc1::e040",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 41,
@@ -863,9 +1004,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::002a789c11::e041",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 42,
@@ -884,9 +1026,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::cefa56fe6f::e042",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 43,
@@ -905,9 +1048,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::eb1bac7c6a::e043",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 44,
@@ -926,9 +1070,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b632f19812::e044",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 45,
@@ -947,9 +1092,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::754c53f2c1::e045",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 46,
@@ -968,9 +1114,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::08edef603b::e046",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 47,
@@ -989,9 +1136,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::1a0702cce1::e047",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 48,
@@ -1010,9 +1158,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::dca85d6303::e048",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 49,
@@ -1031,9 +1180,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b92c3d52c9::e049",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 50,
@@ -1052,9 +1202,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::5e330d74f6::e050",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 51,
@@ -1073,9 +1224,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::27ae710352::e051",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 52,
@@ -1094,9 +1246,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::e5a9d4e328::e052",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     },
     {
       "id": 53,
@@ -1115,9 +1268,10 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": "[]",
-      "created_at": "2026-09-04 12:23:28",
-      "updated_at": "2026-09-04 12:23:28"
+      "directions": [],
+      "pipeline_fact_id": "VASTU-CHINTAMANI-001::3845797665::e053",
+      "created_at": "2026-09-24T13:02:15+00:00",
+      "updated_at": "2026-09-25T17:09:57+00:00"
     }
   ]
 }

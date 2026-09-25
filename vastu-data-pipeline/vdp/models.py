@@ -133,6 +133,15 @@ class StagedFact(BaseModel):
     # traceability
     chunk_id: str = ""
     ocr_confidence: Optional[float] = None
+    # round-trip: original app-entry fields (set by import_vastu_entries.py so the
+    # app dataset can be regenerated from the pipeline without information loss)
+    source_app_category: str = ""
+    source_app_issue_topic: str = ""
+    source_app_recommendation: str = ""
+    source_app_mantra: str = ""
+    source_app_expected_effect: str = ""
+    source_app_confidence: str = ""
+    source_app_verified: str = ""
 
     @model_validator(mode="after")
     def _interpretation_rule(self):
