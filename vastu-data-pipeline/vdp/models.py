@@ -64,7 +64,7 @@ class SourceRecord(BaseModel):
     ] = "unknown"
     notes: str = ""
     extraction_status: Literal[
-        "pending", "extracted", "ocr_required", "failed", "superseded"
+        "pending", "extracted", "ocr_required", "failed", "superseded", "imported"
     ] = "pending"
 
 

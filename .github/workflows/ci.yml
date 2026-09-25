@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: vastu-data-pipeline
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Rebuild pipeline from fresh DB
+        run: |
+          python scripts/run_pipeline.py init
+          python scripts/run_pipeline.py make-samples
+          python scripts/import_vastu_entries.py
+          python scripts/run_pipeline.py run-all
+
+      - name: Fail if app dataset is stale
+        run: python scripts/build_app_dataset.py --check
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Build web export
+        working-directory: .
+        run: |
+          npm ci
+          npx expo export --platform web

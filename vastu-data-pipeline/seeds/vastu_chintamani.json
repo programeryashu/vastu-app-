@@ -1,6 +1,6 @@
 {
   "stats": {
-    "total": 84,
+    "total": 53,
     "withRemedies": 9,
     "withMantras": 3,
     "verified": 53
@@ -31,8 +31,7 @@
         "North-East",
         "South-West",
         "North-West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::4dc998a3be::e001"
+      ]
     },
     {
       "id": 2,
@@ -51,8 +50,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::293f624eae::e002"
+      "directions": []
     },
     {
       "id": 3,
@@ -78,8 +76,7 @@
         "South",
         "North-East",
         "South-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::dbb5d32f99::e003"
+      ]
     },
     {
       "id": 4,
@@ -103,8 +100,7 @@
         "West",
         "North",
         "South"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::14840bdad7::e004"
+      ]
     },
     {
       "id": 5,
@@ -127,8 +123,7 @@
         "East",
         "North",
         "North-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::c7c67d1620::e005"
+      ]
     },
     {
       "id": 6,
@@ -153,8 +148,7 @@
         "South",
         "South-West",
         "North-West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::57c844bd9a::e006"
+      ]
     },
     {
       "id": 7,
@@ -177,8 +171,7 @@
         "East",
         "South",
         "South-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::0221ed672b::e007"
+      ]
     },
     {
       "id": 8,
@@ -203,8 +196,7 @@
         "South",
         "South-West",
         "North-West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b27bff546e::e008"
+      ]
     },
     {
       "id": 9,
@@ -225,8 +217,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "Centre"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::4274336a9d::e009"
+      ]
     },
     {
       "id": 10,
@@ -247,8 +238,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "Centre"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::654e59973c::e010"
+      ]
     },
     {
       "id": 11,
@@ -267,8 +257,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::227622830b::e011"
+      "directions": []
     },
     {
       "id": 12,
@@ -287,8 +276,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::728dc5edef::e012"
+      "directions": []
     },
     {
       "id": 13,
@@ -307,8 +295,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::d0504735e1::e013"
+      "directions": []
     },
     {
       "id": 14,
@@ -327,8 +314,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::8e12e034f3::e014"
+      "directions": []
     },
     {
       "id": 15,
@@ -352,8 +338,7 @@
         "West",
         "North",
         "South"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::c833231171::e015"
+      ]
     },
     {
       "id": 16,
@@ -372,8 +357,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::97f70c4666::e016"
+      "directions": []
     },
     {
       "id": 17,
@@ -392,8 +376,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::800bc809d4::e017"
+      "directions": []
     },
     {
       "id": 18,
@@ -412,8 +395,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::a5ed2d3dbb::e018"
+      "directions": []
     },
     {
       "id": 19,
@@ -434,8 +416,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::427f51bd7f::e019"
+      ]
     },
     {
       "id": 20,
@@ -458,8 +439,7 @@
         "East",
         "South",
         "South-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::9cf944a389::e020"
+      ]
     },
     {
       "id": 21,
@@ -480,8 +460,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "South"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::61d936cfdb::e021"
+      ]
     },
     {
       "id": 22,
@@ -504,8 +483,7 @@
         "West",
         "South",
         "South-West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::76a22c167c::e022"
+      ]
     },
     {
       "id": 23,
@@ -526,8 +504,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::bd8c91ffee::e023"
+      ]
     },
     {
       "id": 24,
@@ -550,8 +527,7 @@
         "West",
         "North",
         "North-West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::27d2830be0::e024"
+      ]
     },
     {
       "id": 25,
@@ -572,8 +548,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "North"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::0e65fec835::e025"
+      ]
     },
     {
       "id": 26,
@@ -596,8 +571,7 @@
         "East",
         "North",
         "North-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::65426f861c::e026"
+      ]
     },
     {
       "id": 27,
@@ -621,8 +595,7 @@
         "West",
         "North",
         "South"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::23ada7fcef::e027"
+      ]
     },
     {
       "id": 28,
@@ -645,8 +618,7 @@
         "East",
         "South",
         "South-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b3ddba751f::e028"
+      ]
     },
     {
       "id": 29,
@@ -667,8 +639,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::6360f6289e::e029"
+      ]
     },
     {
       "id": 30,
@@ -691,8 +662,7 @@
         "East",
         "North",
         "North-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::eaad4cd436::e030"
+      ]
     },
     {
       "id": 31,
@@ -717,8 +687,7 @@
         "South",
         "South-East",
         "South-West"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::26406c68aa::e031"
+      ]
     },
     {
       "id": 32,
@@ -744,8 +713,7 @@
         "South",
         "North-East",
         "South-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::6aea25c68e::e032"
+      ]
     },
     {
       "id": 33,
@@ -768,8 +736,7 @@
         "East",
         "North",
         "North-East"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::7b7d1a403d::e033"
+      ]
     },
     {
       "id": 34,
@@ -788,8 +755,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::5bb344f36b::e034"
+      "directions": []
     },
     {
       "id": 35,
@@ -808,8 +774,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::bcb5829fd7::e035"
+      "directions": []
     },
     {
       "id": 36,
@@ -828,8 +793,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::09d986a14e::e036"
+      "directions": []
     },
     {
       "id": 37,
@@ -848,8 +812,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::2947eb594b::e037"
+      "directions": []
     },
     {
       "id": 38,
@@ -870,8 +833,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "Centre"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::82f0bf5394::e038"
+      ]
     },
     {
       "id": 39,
@@ -892,8 +854,7 @@
       "source_book": "Vastu Chintamani",
       "directions": [
         "Centre"
-      ],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::723184688b::e039"
+      ]
     },
     {
       "id": 40,
@@ -912,8 +873,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::2ed6e8ccc1::e040"
+      "directions": []
     },
     {
       "id": 41,
@@ -932,8 +892,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::002a789c11::e041"
+      "directions": []
     },
     {
       "id": 42,
@@ -952,8 +911,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::cefa56fe6f::e042"
+      "directions": []
     },
     {
       "id": 43,
@@ -972,8 +930,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::eb1bac7c6a::e043"
+      "directions": []
     },
     {
       "id": 44,
@@ -992,8 +949,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b632f19812::e044"
+      "directions": []
     },
     {
       "id": 45,
@@ -1012,8 +968,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::754c53f2c1::e045"
+      "directions": []
     },
     {
       "id": 46,
@@ -1032,8 +987,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::08edef603b::e046"
+      "directions": []
     },
     {
       "id": 47,
@@ -1052,8 +1006,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::1a0702cce1::e047"
+      "directions": []
     },
     {
       "id": 48,
@@ -1072,8 +1025,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::dca85d6303::e048"
+      "directions": []
     },
     {
       "id": 49,
@@ -1092,8 +1044,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::b92c3d52c9::e049"
+      "directions": []
     },
     {
       "id": 50,
@@ -1112,8 +1063,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::5e330d74f6::e050"
+      "directions": []
     },
     {
       "id": 51,
@@ -1132,8 +1082,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::27ae710352::e051"
+      "directions": []
     },
     {
       "id": 52,
@@ -1152,8 +1101,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::e5a9d4e328::e052"
+      "directions": []
     },
     {
       "id": 53,
@@ -1172,660 +1120,7 @@
       "confidence": "HIGH",
       "verification_status": "SOURCE_VERIFIED",
       "source_book": "Vastu Chintamani",
-      "directions": [],
-      "pipeline_fact_id": "VASTU-CHINTAMANI-001::3845797665::e053"
-    },
-    {
-      "id": 54,
-      "category": "Vastu Principles",
-      "subcategory": "concept",
-      "issue_topic": "Zones and Elements",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Zones and Elements",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-HTML-001::199588df3a::00005"
-    },
-    {
-      "id": 55,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "However, if the plot slope is towards north-east, water bodies there are…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "2",
-      "source_text": "However, if the plot slope is towards north-east, water bodies there are described as acceptable even when the entrance is in the east.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [
-        "North-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-HTML-001::44d5f5042e::00009"
-    },
-    {
-      "id": 56,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "Exceptions",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "2",
-      "source_text": "Exceptions",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-HTML-001::5440299dde::00008"
-    },
-    {
-      "id": 57,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The main entrance is best in the north or east direction according to this…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "The main entrance is best in the north or east direction according to this sample page. A door opening clockwise is described as positive.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [
-        "North"
-      ],
-      "pipeline_fact_id": "SAMPLE-HTML-001::6b01dfb2a3::00003"
-    },
-    {
-      "id": 58,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Keep the entrance well lit",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Keep the entrance well lit",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-HTML-001::83bb326d0c::00004"
-    },
-    {
-      "id": 59,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "Sample Vastu Web Notes (Synthetic)",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Sample Vastu Web Notes (Synthetic)",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-HTML-001::87c883b700::00001"
-    },
-    {
-      "id": 60,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Entrance",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Entrance",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-HTML-001::946a9721dd::00002"
-    },
-    {
-      "id": 61,
-      "category": "Vastu Principles",
-      "subcategory": "concept",
-      "issue_topic": "Direction ; Element ; Planet | North ; Water ; Mercury | South-East ; Fire ;…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Direction ; Element ; Planet | North ; Water ; Mercury | South-East ; Fire ; Venus",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [
-        "South-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-HTML-001::c14b10a6b0::00007"
-    },
-    {
-      "id": 62,
-      "category": "Room Placement Recommendations",
-      "subcategory": "concept",
-      "issue_topic": "Water element governs the north-east zone, while fire governs the south-east…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Water element governs the north-east zone, while fire governs the south-east zone of the plot.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Web Notes (synthetic)",
-      "directions": [
-        "North-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-HTML-001::f1e10d84f2::00006"
-    },
-    {
-      "id": 63,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The kitchen should be located in the south-east direction of the house.…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Kitchen Rules",
-      "section": null,
-      "page_number": "1",
-      "source_text": "The kitchen should be located in the south-east direction of the house. Cooking while facing east is described as ideal in this synthetic sample chapter.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Book (synthetic text PDF)",
-      "directions": [
-        "South-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-PDF-001::70430f7848::00002"
-    },
-    {
-      "id": 64,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Chapter 1: Kitchen Rules",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Kitchen Rules",
-      "section": null,
-      "page_number": "1",
-      "source_text": "Chapter 1: Kitchen Rules",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Book (synthetic text PDF)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-PDF-001::7ee7411887::00001"
-    },
-    {
-      "id": 65,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The kitchen should be located in the south-east direction of the house.…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Duplicate Check",
-      "section": null,
-      "page_number": "1",
-      "source_text": "The kitchen should be located in the south-east direction of the house. Cooking while facing east is described as ideal in this synthetic sample chapter.",
-      "confidence": "HIGH",
-      "verification_status": "DUPLICATE",
-      "source_book": "Sample Vastu Book (synthetic text PDF)",
-      "directions": [
-        "South-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-PDF-001::8c354be504::00006"
-    },
-    {
-      "id": 66,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The puja room should be in the north-east corner. Idols should not face the…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Puja Room",
-      "section": null,
-      "page_number": "1",
-      "source_text": "The puja room should be in the north-east corner. Idols should not face the south direction, according to this sample text.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Book (synthetic text PDF)",
-      "directions": [
-        "North-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-PDF-001::d555ddee8f::00004"
-    },
-    {
-      "id": 67,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Chapter 2: Puja Room",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Puja Room",
-      "section": null,
-      "page_number": "1",
-      "source_text": "Chapter 2: Puja Room",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Book (synthetic text PDF)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-PDF-001::ec56f05efb::00003"
-    },
-    {
-      "id": 68,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "Chapter 3: Duplicate Check",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Duplicate Check",
-      "section": null,
-      "page_number": "1",
-      "source_text": "Chapter 3: Duplicate Check",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Book (synthetic text PDF)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-PDF-001::ee1ce80e2c::00005"
-    },
-    {
-      "id": 69,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Avoid building a bathroom in the north-east corner of the plot.",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Directions",
-      "section": null,
-      "page_number": "3",
-      "source_text": "Avoid building a bathroom in the north-east corner of the plot.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "North-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::121100aae2::00007"
-    },
-    {
-      "id": 70,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "Chapter 2: Rooms",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Rooms",
-      "section": null,
-      "page_number": "3",
-      "source_text": "Chapter 2: Rooms",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::2aeb671559::00008"
-    },
-    {
-      "id": 71,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The kitchen should be in the south-east direction because agni, the fire…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Directions",
-      "section": null,
-      "page_number": "3",
-      "source_text": "The kitchen should be in the south-east direction because agni, the fire element, governs the south-east corner of the house.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "South-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::47d1c0ad41::00005"
-    },
-    {
-      "id": 72,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Colors: light yellow and cream colors are recommended for the puja room,…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Plot and Measurements",
-      "section": null,
-      "page_number": "5",
-      "source_text": "Colors: light yellow and cream colors are recommended for the puja room, while red colors are associated with the south-east fire zone.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "South-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::4aa4a2098a::00017"
-    },
-    {
-      "id": 73,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "Sample Vastu Notes (Synthetic — Owned License)",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": null,
-      "section": null,
-      "page_number": "1",
-      "source_text": "Sample Vastu Notes (Synthetic — Owned License)",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::76039fbc1a::00001"
-    },
-    {
-      "id": 74,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "Chapter 1: Directions",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Directions",
-      "section": null,
-      "page_number": "2",
-      "source_text": "Chapter 1: Directions",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::8b4e7b02f5::00003"
-    },
-    {
-      "id": 75,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The north-east corner is dedicated to water and space elements. A puja room…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Directions",
-      "section": null,
-      "page_number": "3",
-      "source_text": "The north-east corner is dedicated to water and space elements. A puja room in the north-east is considered auspicious.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "North-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::98f9e33977::00006"
-    },
-    {
-      "id": 76,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The kitchen should be in the south-east direction because agni, the fire…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Overlapping Rule (dedupe demo)",
-      "section": null,
-      "page_number": "6",
-      "source_text": "The kitchen should be in the south-east direction because agni, the fire element, governs the south-east corner of the house.",
-      "confidence": "HIGH",
-      "verification_status": "DUPLICATE",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "South-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::990434bf18::00021"
-    },
-    {
-      "id": 77,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The master bedroom is best placed in the south-west direction of the house.…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Rooms",
-      "section": null,
-      "page_number": "4",
-      "source_text": "The master bedroom is best placed in the south-west direction of the house. Sleeping with the head towards south is described as good for health.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "South-West"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::a4db5561bd::00010"
-    },
-    {
-      "id": 78,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "The main entrance in the north direction is described as bringing prosperity.",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Plot and Measurements",
-      "section": null,
-      "page_number": "5",
-      "source_text": "The main entrance in the north direction is described as bringing prosperity.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "North"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::b3add6762b::00015"
-    },
-    {
-      "id": 79,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Venus is associated with the bedroom and Jupiter with the puja room in this…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Plot and Measurements",
-      "section": null,
-      "page_number": "5",
-      "source_text": "Venus is associated with the bedroom and Jupiter with the puja room in this text's planet mapping.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::c3c81b35ff::00018"
-    },
-    {
-      "id": 80,
-      "category": "Room Placement Recommendations",
-      "subcategory": "concept",
-      "issue_topic": "A square or rectangular plot is considered stable. A plot extending towards…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Plot and Measurements",
-      "section": null,
-      "page_number": "5",
-      "source_text": "A square or rectangular plot is considered stable. A plot extending towards north-east brings growth, according to this text.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "North-East"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::d1cb654807::00014"
-    },
-    {
-      "id": 81,
-      "category": "Vastu Principles",
-      "subcategory": "concept",
-      "issue_topic": "Chapter 4: Overlapping Rule (dedupe demo)",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Overlapping Rule (dedupe demo)",
-      "section": null,
-      "page_number": "5",
-      "source_text": "Chapter 4: Overlapping Rule (dedupe demo)",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::da14979e1a::00019"
-    },
-    {
-      "id": 82,
-      "category": "Room Placement Recommendations",
-      "subcategory": "concept",
-      "issue_topic": "Chapter 3: Plot and Measurements",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Plot and Measurements",
-      "section": null,
-      "page_number": "4",
-      "source_text": "Chapter 3: Plot and Measurements",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::e6a58e7f49::00012"
-    },
-    {
-      "id": 83,
-      "category": "Room Placement Recommendations",
-      "subcategory": "room_rule",
-      "issue_topic": "Stairs should rise clockwise and ideally occupy the south, west or…",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Rooms",
-      "section": null,
-      "page_number": "4",
-      "source_text": "Stairs should rise clockwise and ideally occupy the south, west or south-west part of the building.",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [
-        "South-West"
-      ],
-      "pipeline_fact_id": "SAMPLE-TXT-001::fbd5d5e60d::00011"
-    },
-    {
-      "id": 84,
-      "category": "Vastu Principles",
-      "subcategory": "",
-      "issue_topic": "--- page 2 ---",
-      "description": "",
-      "recommendation": "",
-      "remedy": null,
-      "mantra_spiritual_practice": null,
-      "expected_effect": null,
-      "chapter": "Plot and Measurements",
-      "section": null,
-      "page_number": "5",
-      "source_text": "--- page 2 ---",
-      "confidence": "HIGH",
-      "verification_status": "UNVERIFIED",
-      "source_book": "Sample Vastu Notes (synthetic)",
-      "directions": [],
-      "pipeline_fact_id": "SAMPLE-TXT-001::fe1486d171::00016"
+      "directions": []
     }
   ]
 }

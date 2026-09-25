@@ -1,5 +1,5 @@
 {
-  "checked_facts": 85,
+  "checked_facts": 84,
   "errors": [],
   "warnings": [
     {
@@ -274,11 +274,6 @@
     },
     {
       "check": "duplicate_record",
-      "id": "SAMPLE-TXT-001::47d1c0ad41::00005::interp-en",
-      "msg": "near-duplicate of SAMPLE-TXT-001::47d1c0ad41::00005 (score=1.0)"
-    },
-    {
-      "check": "duplicate_record",
       "id": "SAMPLE-TXT-001::990434bf18::00021",
       "msg": "near-duplicate of SAMPLE-TXT-001::47d1c0ad41::00005 (score=1.0)"
     },
@@ -288,5 +283,5 @@
       "msg": "conflicts with SAMPLE-TXT-001::98f9e33977::00006: polarity differs in NE/puja_room"
     }
   ],
-  "generated_at": "2026-09-24T13:02:19+00:00"
+  "generated_at": "2026-09-25T17:30:44+00:00"
 }
