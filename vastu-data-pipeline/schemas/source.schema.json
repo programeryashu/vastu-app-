@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vastu-data-pipeline/schemas/source.schema.json",
+  "title": "Vastu Source (registry entry)",
+  "type": "object",
+  "required": ["source_id", "title", "license_status", "location"],
+  "properties": {
+    "source_id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string", "minLength": 1 },
+    "author": { "type": "string" },
+    "language": { "type": "string" },
+    "publication_year": { "type": ["integer", "null"] },
+    "source_type": {
+      "type": "string",
+      "enum": ["pdf", "scan_pdf", "txt", "html", "epub", "web", "other"]
+    },
+    "location": { "type": "string", "minLength": 1 },
+    "license_status": {
+      "type": "string",
+      "enum": ["public_domain", "licensed", "owned", "permitted_web", "unknown"]
+    },
+    "notes": { "type": "string" },
+    "extraction_status": {
+      "type": "string",
+      "enum": ["pending", "extracted", "ocr_required", "failed", "superseded"]
+    }
+  }
+}

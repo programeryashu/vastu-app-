@@ -1,0 +1,20 @@
+# Core (required)
+pydantic>=2.7
+beautifulsoup4>=4.12
+lxml>=5.2
+
+# PDF extraction + scan rendering
+PyMuPDF>=1.24
+
+# OCR fallback (optional — requires the Tesseract binary installed on the OS)
+pytesseract>=0.3.10
+Pillow>=10.3
+
+# Review UI (feature 12)
+flask>=3.0
+
+# Web fetching for permitted pages (optional)
+playwright>=1.45
+
+# Optional Supabase import (feature 11)
+supabase>=2.5

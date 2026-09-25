@@ -1,0 +1,44 @@
+Sample Vastu Notes (Synthetic — Owned License)
+===============================================
+
+Chapter 1: Directions
+---
+
+The kitchen should be in the south-east direction because agni, the fire
+element, governs the south-east corner of the house.
+
+The north-east corner is dedicated to water and space elements. A puja room
+in the north-east is considered auspicious.
+
+Avoid building a bathroom in the north-east corner of the plot.
+
+Chapter 2: Rooms
+---
+
+The master bedroom is best placed in the south-west direction of the house.
+Sleeping with the head towards south is described as good for health.
+
+Stairs should rise clockwise and ideally occupy the south, west or south-west
+part of the building.
+
+Chapter 3: Plot and Measurements
+---
+
+A square or rectangular plot is considered stable. A plot extending towards
+north-east brings growth, according to this text.
+
+The main entrance in the north direction is described as bringing prosperity.
+
+--- page 2 ---
+
+Colors: light yellow and cream colors are recommended for the puja room,
+while red colors are associated with the south-east fire zone.
+
+Venus is associated with the bedroom and Jupiter with the puja room in this
+text's planet mapping.
+
+Chapter 4: Overlapping Rule (dedupe demo)
+---
+
+The kitchen should be in the south-east direction because agni, the fire
+element, governs the south-east corner of the house.

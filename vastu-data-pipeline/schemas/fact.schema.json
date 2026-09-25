@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "vastu-data-pipeline/schemas/fact.schema.json",
+  "title": "Vastu Fact (public dataset record)",
+  "type": "object",
+  "required": ["id", "claim", "source", "verification_status"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "topic": { "type": "string" },
+    "subcategory": { "type": "string" },
+    "claim": { "type": "string", "minLength": 1 },
+    "description": { "type": "string" },
+    "direction": { "type": "string" },
+    "room": { "type": "string" },
+    "element": { "type": "string" },
+    "planet": { "type": "string" },
+    "remedy": { "type": "string" },
+    "conditions": { "type": "array", "items": { "type": "string" } },
+    "source": {
+      "type": "object",
+      "required": ["source_id", "original_text"],
+      "properties": {
+        "source_id": { "type": "string", "minLength": 1 },
+        "title": { "type": "string" },
+        "author": { "type": "string" },
+        "chapter": { "type": "string" },
+        "page": { "type": "string" },
+        "original_text": { "type": "string", "minLength": 1 }
+      }
+    },
+    "language": { "type": "string" },
+    "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+    "verification_status": {
+      "type": "string",
+      "enum": ["unverified", "approved", "rejected", "conflict", "variant", "duplicate"]
+    }
+  }
+}

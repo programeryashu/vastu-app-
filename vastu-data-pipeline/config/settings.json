@@ -1,0 +1,44 @@
+{
+  "paths": {
+    "sources": "sources",
+    "raw": "raw",
+    "extracted": "extracted",
+    "cleaned": "cleaned",
+    "datasets": "datasets",
+    "logs": "logs",
+    "db": "vastu_pipeline.sqlite3"
+  },
+  "ocr": {
+    "min_chars_per_page": 120,
+    "low_confidence_threshold": 70.0,
+    "dpi": 200,
+    "lang": "eng+hin"
+  },
+  "dedupe": {
+    "similarity_threshold": 0.87,
+    "min_tokens": 4
+  },
+  "validation": {
+    "fail_on_warnings": false
+  },
+  "export": {
+    "files": {
+      "facts": "vastu_facts.json",
+      "facts_jsonl": "vastu_facts.jsonl",
+      "terms": "vastu_terms.json",
+      "remedies": "vastu_remedies.json",
+      "directions": "vastu_directions.json",
+      "rooms": "vastu_rooms.json",
+      "source_registry": "source_registry.json"
+    }
+  },
+  "review": {
+    "host": "127.0.0.1",
+    "port": 3101
+  },
+  "web_fetch": {
+    "timeout_seconds": 30,
+    "respect_robots": true,
+    "user_agent": "VastuDataPipeline/1.0 (+local research; respects robots.txt)"
+  }
+}

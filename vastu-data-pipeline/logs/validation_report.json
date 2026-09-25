@@ -1,0 +1,292 @@
+{
+  "checked_facts": 85,
+  "errors": [],
+  "warnings": [
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::4dc998a3be::e001",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::293f624eae::e002",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::dbb5d32f99::e003",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::14840bdad7::e004",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::c7c67d1620::e005",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::57c844bd9a::e006",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::0221ed672b::e007",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::b27bff546e::e008",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::4274336a9d::e009",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::654e59973c::e010",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::227622830b::e011",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::728dc5edef::e012",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::d0504735e1::e013",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::8e12e034f3::e014",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::c833231171::e015",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::97f70c4666::e016",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::800bc809d4::e017",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::a5ed2d3dbb::e018",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::427f51bd7f::e019",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::9cf944a389::e020",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::61d936cfdb::e021",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::76a22c167c::e022",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::bd8c91ffee::e023",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::27d2830be0::e024",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::0e65fec835::e025",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::65426f861c::e026",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::23ada7fcef::e027",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::b3ddba751f::e028",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::6360f6289e::e029",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::eaad4cd436::e030",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::26406c68aa::e031",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::6aea25c68e::e032",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::7b7d1a403d::e033",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::5bb344f36b::e034",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::bcb5829fd7::e035",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::09d986a14e::e036",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::2947eb594b::e037",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::82f0bf5394::e038",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::723184688b::e039",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::2ed6e8ccc1::e040",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::002a789c11::e041",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::cefa56fe6f::e042",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::eb1bac7c6a::e043",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::b632f19812::e044",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::754c53f2c1::e045",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::08edef603b::e046",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::1a0702cce1::e047",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::dca85d6303::e048",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::b92c3d52c9::e049",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::5e330d74f6::e050",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::27ae710352::e051",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::e5a9d4e328::e052",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "missing_page",
+      "id": "VASTU-CHINTAMANI-001::3845797665::e053",
+      "msg": "no page number recorded"
+    },
+    {
+      "check": "duplicate_record",
+      "id": "SAMPLE-PDF-001::8c354be504::00006",
+      "msg": "near-duplicate of SAMPLE-PDF-001::70430f7848::00002 (score=1.0)"
+    },
+    {
+      "check": "duplicate_record",
+      "id": "SAMPLE-TXT-001::47d1c0ad41::00005::interp-en",
+      "msg": "near-duplicate of SAMPLE-TXT-001::47d1c0ad41::00005 (score=1.0)"
+    },
+    {
+      "check": "duplicate_record",
+      "id": "SAMPLE-TXT-001::990434bf18::00021",
+      "msg": "near-duplicate of SAMPLE-TXT-001::47d1c0ad41::00005 (score=1.0)"
+    },
+    {
+      "check": "contradiction",
+      "id": "SAMPLE-PDF-001::d555ddee8f::00004",
+      "msg": "conflicts with SAMPLE-TXT-001::98f9e33977::00006: polarity differs in NE/puja_room"
+    }
+  ],
+  "generated_at": "2026-09-24T13:02:19+00:00"
+}
