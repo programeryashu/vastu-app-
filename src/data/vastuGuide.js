@@ -180,7 +180,3 @@ export const vastuGuideData = [
     }
   }
 ];
-
-export const getGuideById = (id) => {
-  return vastuGuideData.find(guide => guide.id === id);
-};

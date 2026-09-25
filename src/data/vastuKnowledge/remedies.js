@@ -159,23 +159,9 @@ export const remedies = [
 ];
 
 // ── Helper Functions ──
-export const getRemediesBySpace = (spaceId) => {
-  return remedies.filter(r => r.spaceId === spaceId);
-};
-
 export const getRemediesBySpaceAndDirection = (spaceId, directionId) => {
   return remedies
     .filter(r => r.spaceId === spaceId && r.directionId === directionId)
-    .sort((a, b) => a.priority - b.priority);
-};
-
-export const getRemediesByType = (type) => {
-  return remedies.filter(r => r.type === type);
-};
-
-export const getNonRenovationRemedies = (spaceId, directionId) => {
-  return getRemediesBySpaceAndDirection(spaceId, directionId)
-    .filter(r => !r.renovation)
     .sort((a, b) => a.priority - b.priority);
 };
 

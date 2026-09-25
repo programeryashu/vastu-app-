@@ -100,10 +100,6 @@ export const placementRules = [
 ];
 
 // ── Helper Functions ──
-export const getRulesBySpace = (spaceId) => {
-  return placementRules.filter(r => r.spaceId === spaceId);
-};
-
 export const getRule = (spaceId, directionId) => {
   return placementRules.find(r => r.spaceId === spaceId && r.directionId === directionId);
 };
@@ -126,14 +122,4 @@ export const getAssessmentLabel = (assessment) => {
     discouraged: 'Traditionally Discouraged',
   };
   return labels[assessment] || 'Unknown';
-};
-
-export const getAssessmentIcon = (assessment) => {
-  const icons = {
-    preferred: 'checkmark-circle',
-    acceptable: 'checkmark-circle',
-    less_preferred: 'alert-circle',
-    discouraged: 'close-circle',
-  };
-  return icons[assessment] || 'help-circle';
 };

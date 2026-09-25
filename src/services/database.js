@@ -145,36 +145,6 @@ export async function searchEntries(query) {
   }).map(normalize);
 }
 
-/** Get entries by direction name (e.g. "East", "North-East") */
-export async function getEntriesByDirection(direction) {
-  const dir = (direction || '').toLowerCase();
-  const all = await getAllEntries(Infinity);
-  return all.filter(entry =>
-    (entry.directions || []).some(d => d.toLowerCase().includes(dir))
-  );
-}
-
-/** Get entries by exact category */
-export async function getEntriesByCategory(category) {
-  if (Platform.OS !== 'web') {
-    try {
-      const db = await getNativeDb();
-      const rows = await db.getAllAsync(
-        'SELECT * FROM vastu_entries WHERE category = ? ORDER BY id',
-        [category]
-      );
-      return rows.map(normalize);
-    } catch (e) { /* fall through */ }
-  }
-  return ALL_ENTRIES.filter(entry => entry.category === category).map(normalize);
-}
-
-/** Get entries that include a remedy */
-export async function getEntriesWithRemedies() {
-  const all = await getAllEntries(Infinity);
-  return all.filter(entry => entry.remedy && entry.remedy !== 'NULL');
-}
-
 /** Get categories with entry counts, largest first */
 export async function getCategories() {
   if (Platform.OS !== 'web') {
@@ -199,12 +169,6 @@ export async function getCategories() {
 /** Cached dataset summary */
 export async function getStats() {
   return DB_STATS;
-}
-
-/** Fetch one entry by numeric id */
-export async function getEntryById(id) {
-  const all = await getAllEntries(Infinity);
-  return all.find(entry => String(entry.id) === String(id)) || null;
 }
 
 /** All entries (pass Infinity for everything) */

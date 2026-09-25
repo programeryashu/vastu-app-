@@ -97,7 +97,3 @@ export const sources = [
 export const getSourceById = (id) => {
   return sources.find(s => s.id === id);
 };
-
-export const getSourcesByVerification = (status) => {
-  return sources.filter(s => s.verificationStatus === status);
-};
