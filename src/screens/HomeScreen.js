@@ -48,7 +48,7 @@ const HomeScreen = ({ navigation }) => {
     { id: 'compass', icon: 'compass', label: 'Compass', sub: 'Find direction', screen: 'Compass', color: '#4A6FA5' },
     { id: 'explore', icon: 'map', label: 'Explore', sub: 'Directions & Guide', screen: 'Explore', color: '#C9A96E' },
     { id: 'remedies', icon: 'medical', label: 'Remedies', sub: 'Solutions & fixes', screen: 'Remedies', color: '#4A7C59' },
-    { id: 'database', icon: 'book', label: 'Database', sub: '53 entries', screen: 'Explore', param: 'VastuEntries', color: '#7A6F63' },
+    { id: 'database', icon: 'book', label: 'Database', sub: `${dbStats?.total || 84} entries`, screen: 'Explore', param: 'VastuEntries', color: '#7A6F63' },
   ];
 
   const stats = [
