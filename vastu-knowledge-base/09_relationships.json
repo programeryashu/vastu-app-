@@ -1,0 +1,147 @@
+{
+  "dataset": "relationships",
+  "version": "0.1",
+  "note": "Relationships mirror only what a source actually supports. Current file contains only the Rajavallabha Nighantu integration links: the 11 explicitly direction-bearing records to the direction taxonomy. These are knowledge-graph links, not extracted Vastu rules; the section records remain entry-level claims. Future batches (other sources, conflicts, supports) append here.",
+  "records": [
+    {
+      "id": "rel_000001",
+      "type": "associated_with",
+      "from": "nighantu_prabhatika_p003_v013",
+      "to": "direction_E",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000002",
+      "type": "associated_with",
+      "from": "nighantu_prabhatika_p003_v013",
+      "to": "direction_S",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000003",
+      "type": "associated_with",
+      "from": "nighantu_prabhatika_p003_v013",
+      "to": "direction_W",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000004",
+      "type": "associated_with",
+      "from": "nighantu_prabhatika_p003_v013",
+      "to": "direction_N",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000005",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p010_v027",
+      "to": "direction_E",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000006",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v028",
+      "to": "direction_E",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000007",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v029",
+      "to": "direction_E",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000008",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v030",
+      "to": "direction_S",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000009",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v031",
+      "to": "direction_S",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000010",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v032",
+      "to": "direction_W",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000011",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v033",
+      "to": "direction_W",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000012",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p011_v034",
+      "to": "direction_W",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000013",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p012_v035",
+      "to": "direction_N",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    },
+    {
+      "id": "rel_000014",
+      "type": "associated_with",
+      "from": "nighantu_paurvahlika_p012_v036",
+      "to": "direction_N",
+      "source_ids": [
+        "source_rajavallabha_nighantu_edition_nepali_2024"
+      ],
+      "note": "Direction named in the source text itself (directional winds / facing rule)."
+    }
+  ]
+}

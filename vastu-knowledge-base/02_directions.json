@@ -1,0 +1,88 @@
+{
+  "dataset": "directions",
+  "version": "0.1",
+  "note": "Associations (element, deity, planet) deliberately left empty until a source supports them.",
+  "records": [
+    {
+      "id": "direction_N",
+      "name": "North",
+      "short_code": "N",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_NE",
+      "name": "North-East",
+      "short_code": "NE",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_E",
+      "name": "East",
+      "short_code": "E",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_SE",
+      "name": "South-East",
+      "short_code": "SE",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_S",
+      "name": "South",
+      "short_code": "S",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_SW",
+      "name": "South-West",
+      "short_code": "SW",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_W",
+      "name": "West",
+      "short_code": "W",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_NW",
+      "name": "North-West",
+      "short_code": "NW",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    },
+    {
+      "id": "direction_CENTER",
+      "name": "Center",
+      "short_code": "CENTER",
+      "traditional_association": "",
+      "associated_element": "",
+      "association_status": "insufficient_source",
+      "source_ids": []
+    }
+  ]
+}

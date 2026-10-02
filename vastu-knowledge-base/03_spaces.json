@@ -1,0 +1,223 @@
+{
+  "dataset": "spaces",
+  "version": "0.1",
+  "note": "Aliases are naming conventions for search, not source claims.",
+  "records": [
+    {
+      "id": "space_entrance",
+      "name": "Entrance",
+      "category": "residential",
+      "aliases": [
+        "Entrance",
+        "Main Door",
+        "Main Entrance"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_living_room",
+      "name": "Living Room",
+      "category": "residential",
+      "aliases": [
+        "Living Room",
+        "Drawing Room",
+        "Hall"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_master_bedroom",
+      "name": "Master Bedroom",
+      "category": "residential",
+      "aliases": [
+        "Master Bedroom",
+        "Primary Bedroom"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_bedroom",
+      "name": "Bedroom",
+      "category": "residential",
+      "aliases": [
+        "Bedroom",
+        "Guest Bedroom"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_childrens_bedroom",
+      "name": "Children's Bedroom",
+      "category": "residential",
+      "aliases": [
+        "Children's Bedroom",
+        "Kids Room"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_kitchen",
+      "name": "Kitchen",
+      "category": "residential",
+      "aliases": [
+        "Kitchen",
+        "Rasoi"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_dining_room",
+      "name": "Dining Room",
+      "category": "residential",
+      "aliases": [
+        "Dining Room",
+        "Dining Area"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_pooja_room",
+      "name": "Pooja Room",
+      "category": "residential",
+      "aliases": [
+        "Pooja Room",
+        "Prayer Room",
+        "Puja Room"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_study_room",
+      "name": "Study Room",
+      "category": "residential",
+      "aliases": [
+        "Study Room",
+        "Study"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_bathroom",
+      "name": "Bathroom",
+      "category": "residential",
+      "aliases": [
+        "Bathroom",
+        "Bath"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_toilet",
+      "name": "Toilet",
+      "category": "residential",
+      "aliases": [
+        "Toilet",
+        "WC",
+        "Latrine"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_staircase",
+      "name": "Staircase",
+      "category": "residential",
+      "aliases": [
+        "Staircase",
+        "Stairs"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_store_room",
+      "name": "Store Room",
+      "category": "residential",
+      "aliases": [
+        "Store Room",
+        "Storage"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_garage",
+      "name": "Garage",
+      "category": "residential",
+      "aliases": [
+        "Garage",
+        "Parking"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_balcony",
+      "name": "Balcony",
+      "category": "residential",
+      "aliases": [
+        "Balcony",
+        "Verandah"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_garden",
+      "name": "Garden",
+      "category": "residential",
+      "aliases": [
+        "Garden",
+        "Lawn"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_office",
+      "name": "Office",
+      "category": "commercial",
+      "aliases": [
+        "Office",
+        "Home Office",
+        "Commercial Office"
+      ],
+      "description": "",
+      "source_ids": [],
+      "review_flag": "Brief puts commercial Vastu in a separate category; confirm if Office stays in the residential master list."
+    },
+    {
+      "id": "space_temple_pooja_space",
+      "name": "Temple/Pooja Space",
+      "category": "residential",
+      "aliases": [
+        "Temple/Pooja Space",
+        "Home Temple",
+        "Mandir"
+      ],
+      "description": "",
+      "source_ids": []
+    },
+    {
+      "id": "space_utility_area",
+      "name": "Utility Area",
+      "category": "residential",
+      "aliases": [
+        "Utility Area",
+        "Wash Area"
+      ],
+      "description": "",
+      "source_ids": []
+    }
+  ]
+}
