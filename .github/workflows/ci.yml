@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: vastu-data-pipeline
+        working-directory: .
 
     steps:
       - uses: actions/checkout@v4
@@ -24,7 +24,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Set up Python for pipeline steps
+        run: python --version
+
       - name: Rebuild pipeline from fresh DB
+        working-directory: vastu-data-pipeline
         run: |
           python scripts/run_pipeline.py init
           python scripts/run_pipeline.py make-samples
@@ -32,6 +36,7 @@ jobs:
           python scripts/run_pipeline.py run-all
 
       - name: Fail if app dataset is stale
+        working-directory: vastu-data-pipeline
         run: python scripts/build_app_dataset.py --check
 
       - uses: actions/setup-node@v4
