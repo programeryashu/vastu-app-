@@ -45,7 +45,7 @@ const VastuEntriesScreen = ({ navigation }) => {
     if (searchQuery.trim()) {
       performSearch();
     } else if (selectedCategory) {
-      filterByCategory(selectedCategory);
+      loadCategoryEntries(selectedCategory);
     } else {
       loadAllEntries();
     }
@@ -77,14 +77,18 @@ const VastuEntriesScreen = ({ navigation }) => {
     setEntries(results);
   };
 
+  // Pure loaders — never toggle selection state, safe to call from effects
+  const loadCategoryEntries = async (category) => {
+    const results = await searchEntries(category);
+    setEntries(results);
+  };
+
+  // Chip tap handler — toggles the category selection
   const filterByCategory = async (category) => {
     if (selectedCategory === category) {
       setSelectedCategory(null);
-      await loadAllEntries();
     } else {
       setSelectedCategory(category);
-      const results = await searchEntries(category);
-      setEntries(results);
     }
   };
 

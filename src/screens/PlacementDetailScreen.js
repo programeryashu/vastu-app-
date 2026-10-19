@@ -9,7 +9,7 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../styles/theme';
-import { getPlacementSummary, getRelatedDirections, getAssessmentColor, getAssessmentLabel, getDirectionById, getSpaceById, getSourceById } from '../data/vastuKnowledge';
+import { getPlacementSummary, getRelatedDirections, getAssessmentColor, getAssessmentLabel, getDirectionById, getSpaceById } from '../data/vastuKnowledge';
 
 const PlacementDetailScreen = ({ route, navigation }) => {
   const { spaceId, directionId } = route.params;

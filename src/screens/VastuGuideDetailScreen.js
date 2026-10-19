@@ -8,13 +8,15 @@ import {
 import { SafeAreaView } from "react-native-safe-area-context";
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../styles/theme';
+import { vastuGuideData } from '../data/vastuGuide';
 
 const VastuGuideDetailScreen = ({ route, navigation }) => {
   const { colors, spacing, borderRadius, shadows } = useTheme();
-  const { guideId, entry } = route.params || {};
+  const { guideId, spaceId, entry } = route.params || {};
 
-  // Support both old format (guideId) and new database format (entry object)
-  const data = entry || null;
+  // Support three formats: database entry object, placement-guide spaceId,
+  // and the "What Should Go Where" guide list (guideId uses the same ids as spaces).
+  const data = entry || vastuGuideData.find((g) => g.id === (spaceId || guideId)) || null;
 
   if (!data) {
     return (
@@ -25,7 +27,15 @@ const VastuGuideDetailScreen = ({ route, navigation }) => {
     );
   }
 
-  const directions = data.directions ? (typeof data.directions === 'string' ? JSON.parse(data.directions) : data.directions) : [];
+  let directions = [];
+  if (Array.isArray(data.directions)) {
+    directions = data.directions;
+  } else if (typeof data.directions === 'string') {
+    try { directions = JSON.parse(data.directions) || []; } catch { directions = []; }
+  } else if (data.preferredDirection) {
+    // Placement-guide entry shape: derive directions from preferred/alternative/avoid
+    directions = [data.preferredDirection, data.alternativeDirection, ...(data.avoidDirections || [])].filter(Boolean);
+  }
 
   const getConfidenceColor = (conf) => {
     if (conf === 'HIGH') return colors.success;
@@ -37,6 +47,7 @@ const VastuGuideDetailScreen = ({ route, navigation }) => {
     <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
         {/* Category & Confidence Header */}
+        {data.category && (
         <View style={styles.headerRow}>
           <View style={[styles.categoryBadge, { backgroundColor: colors.accent + '15' }]}>
             <Text style={[styles.categoryText, { color: colors.accent }]}>{data.category}</Text>
@@ -49,9 +60,10 @@ const VastuGuideDetailScreen = ({ route, navigation }) => {
             </View>
           )}
         </View>
+        )}
 
         {/* Title */}
-        <Text style={[styles.title, { color: colors.text }]}>{data.issue_topic}</Text>
+        <Text style={[styles.title, { color: colors.text }]}>{data.issue_topic || data.name}</Text>
 
         {/* Subcategory */}
         {data.subcategory && (
@@ -79,6 +91,40 @@ const VastuGuideDetailScreen = ({ route, navigation }) => {
             </View>
             <Text style={[styles.sectionText, { color: colors.text }]}>{data.description}</Text>
           </View>
+        )}
+
+        {/* Placement Details (guide list shape) */}
+        {data.details && (
+          <>
+            <View style={[styles.sectionCard, { backgroundColor: colors.success + '05', borderRadius: borderRadius.lg, borderColor: colors.success + '20', borderWidth: 1 }, shadows.xs]}>
+              <View style={styles.sectionHeader}>
+                <Ionicons name="checkmark-circle" size={18} color={colors.success} />
+                <Text style={[styles.sectionTitle, { color: colors.success }]}>Best Direction</Text>
+              </View>
+              <Text style={[styles.sectionText, { color: colors.text }]}>{data.details.best}</Text>
+            </View>
+            <View style={[styles.sectionCard, { backgroundColor: colors.info + '05', borderRadius: borderRadius.lg, borderColor: colors.info + '20', borderWidth: 1 }, shadows.xs]}>
+              <View style={styles.sectionHeader}>
+                <Ionicons name="swap-horizontal" size={18} color={colors.info} />
+                <Text style={[styles.sectionTitle, { color: colors.info }]}>Also Acceptable</Text>
+              </View>
+              <Text style={[styles.sectionText, { color: colors.text }]}>{data.details.good}</Text>
+            </View>
+            <View style={[styles.sectionCard, { backgroundColor: colors.error + '05', borderRadius: borderRadius.lg, borderColor: colors.error + '20', borderWidth: 1 }, shadows.xs]}>
+              <View style={styles.sectionHeader}>
+                <Ionicons name="close-circle" size={18} color={colors.error} />
+                <Text style={[styles.sectionTitle, { color: colors.error }]}>Traditionally Avoided</Text>
+              </View>
+              <Text style={[styles.sectionText, { color: colors.text }]}>{data.details.avoid}</Text>
+            </View>
+            <View style={[styles.sectionCard, { backgroundColor: colors.accent + '05', borderRadius: borderRadius.lg, borderColor: colors.accent + '20', borderWidth: 1 }, shadows.xs]}>
+              <View style={styles.sectionHeader}>
+                <Ionicons name="bulb" size={18} color={colors.accent } />
+                <Text style={[styles.sectionTitle, { color: colors.accent }]}>Tip</Text>
+              </View>
+              <Text style={[styles.sectionText, { color: colors.text }]}>{data.details.tip}</Text>
+            </View>
+          </>
         )}
 
         {/* Recommendation */}
@@ -137,11 +183,14 @@ const VastuGuideDetailScreen = ({ route, navigation }) => {
         )}
 
         {/* Source Info */}
+        {(data.source_book || data.chapter || data.section || data.verification_status) && (
         <View style={[styles.sourceInfo, { backgroundColor: colors.surface, borderRadius: borderRadius.lg, borderColor: colors.border, borderWidth: 1 }]}>
+          {data.source_book && (
           <View style={styles.sourceRow}>
             <Ionicons name="library" size={14} color={colors.textSecondary} />
             <Text style={[styles.sourceText2, { color: colors.textSecondary }]}>{data.source_book}</Text>
           </View>
+          )}
           {data.chapter && (
             <View style={styles.sourceRow}>
               <Ionicons name="bookmark" size={14} color={colors.textSecondary} />
@@ -154,11 +203,14 @@ const VastuGuideDetailScreen = ({ route, navigation }) => {
               <Text style={[styles.sourceText2, { color: colors.textSecondary }]}>{data.section}</Text>
             </View>
           )}
+          {data.verification_status && (
           <View style={styles.sourceRow}>
             <Ionicons name="shield-checkmark" size={14} color={colors.success} />
             <Text style={[styles.sourceText2, { color: colors.success }]}>{data.verification_status}</Text>
           </View>
+          )}
         </View>
+        )}
       </ScrollView>
     </SafeAreaView>
   );

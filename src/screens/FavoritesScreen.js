@@ -53,9 +53,9 @@ const FavoritesScreen = ({ navigation }) => {
               style={[styles.favCard, { backgroundColor: colors.surface, borderRadius: borderRadius.lg, borderColor: colors.border }, shadows.xs]}
               onPress={() => {
                 if (fav.type === 'direction') {
-                  navigation.navigate('Directions', { screen: 'DirectionDetail', params: { directionId: fav.id } });
+                  navigation.navigate('Explore', { screen: 'DirectionDetail', params: { directionId: fav.id } });
                 } else {
-                  navigation.navigate('VastuGuide', { screen: 'VastuGuideDetail', params: { guideId: fav.id } });
+                  navigation.navigate('Explore', { screen: 'VastuGuideDetail', params: { spaceId: fav.id } });
                 }
               }}
               activeOpacity={0.7}
