@@ -233,12 +233,4 @@ export const spaces = [
 // ── Helper Functions ──
 export const getSpaceById = (id) => {
   return spaces.find(s => s.id === id);
-};
-
-export const searchSpaces = (query) => {
-  const q = query.toLowerCase();
-  return spaces.filter(s =>
-    s.name.toLowerCase().includes(q) ||
-    s.description.toLowerCase().includes(q)
-  );
-};
+}

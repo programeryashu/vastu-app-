@@ -322,28 +322,4 @@ export const vastuDirections = [
 // ── Helper Functions ──
 export const getDirectionById = (id) => {
   return vastuDirections.find(d => d.id === id);
-};
-
-export const getDirectionByRange = (degree) => {
-  const normalizedDegree = ((degree % 360) + 360) % 360;
-  for (const dir of vastuDirections) {
-    if (dir.wraparound) {
-      if (normalizedDegree >= dir.min || normalizedDegree < dir.wrapMax) return dir;
-    } else {
-      if (normalizedDegree >= dir.min && normalizedDegree < dir.max) return dir;
-    }
-  }
-  return vastuDirections[0];
-};
-
-export const searchDirections = (query) => {
-  const q = query.toLowerCase();
-  return vastuDirections.filter(d =>
-    d.direction.toLowerCase().includes(q) ||
-    d.shortName.toLowerCase().includes(q) ||
-    d.traditionalName.toLowerCase().includes(q) ||
-    d.element.toLowerCase().includes(q) ||
-    d.deity.toLowerCase().includes(q) ||
-    d.association.toLowerCase().includes(q)
-  );
-};
+}
